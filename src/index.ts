@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { program } from "commander";
 import { generateRandomFile } from "murasaki-random-file-generator";
 import { writeFileSync } from "fs";
