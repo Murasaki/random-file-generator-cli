@@ -44,8 +44,7 @@
   "files": [
     "*"
   ],
-  "types": "index.d.ts",
-  "main": "node index.js",
+  "main": "main.js",
   "repository": {
     "directory": "",
     "type": "git",
