@@ -24,7 +24,6 @@ generateRandomFile({
     console.log(`Writing ${buffer.length} bytes to ${program.outputFilePath}`);
 
     writeFileSync(program.outputFilePath, buffer);
-})
-.finally(() => {
-    console.log("Finished");
+
+    console.log("Done.");
 });
