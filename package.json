@@ -51,6 +51,6 @@
     "url": "https://github.com/Murasaki/random-file-generator-cli"
   },
   "bin": {
-    "generate-file": "node index.js"
+    "generate-file": "index.js"
   }
 }
