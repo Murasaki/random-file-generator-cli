@@ -20,8 +20,10 @@
   "dependencies": {
     "@azure/functions": "^1.2.2",
     "@types/node": "^14.0.14",
+    "child_process": "^1.0.2",
     "commander": "^5.1.0",
-    "murasaki-random-file-generator": "^1.6.0"
+    "murasaki-random-file-generator": "^1.6.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
@@ -48,5 +50,8 @@
     "directory": "",
     "type": "git",
     "url": "https://github.com/Murasaki/random-file-generator-cli"
+  },
+  "bin": {
+    "generate-file": "main.js"
   }
 }
