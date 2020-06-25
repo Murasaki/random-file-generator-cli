@@ -48,5 +48,8 @@
     "directory": "",
     "type": "git",
     "url": "https://github.com/Murasaki/random-file-generator-cli"
+  },
+  "bin": {
+    "generate-random-file": "./index.js"
   }
 }
